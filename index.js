@@ -12,6 +12,9 @@ app.get('/instagram', (req, res) => {
 app.get('/facebook', (req, res) => {
     res.send('Hello Facebook!')
 })
+app.get('/twitter',(req,res)=>{
+    res.send('Hello Twitter!')
+})
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
